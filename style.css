@@ -125,7 +125,9 @@ body {
 /* add hover pseudo-class to .add-cart style */
 .add-cart:hover {
   /*background-color*/
+  background-color: white;
   /*color*/
+  color: #000;
 }
 /*END of Add to Cart*/
 
@@ -186,3 +188,29 @@ body {
 
 /*Flexbox Layout*/
 /*Determine which classes need to be flex containers and which are flex items */
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.info {
+  flex: 1;
+}
+
+.details{
+  flex: 1;
+}
+
+.info-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.colors {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+}
