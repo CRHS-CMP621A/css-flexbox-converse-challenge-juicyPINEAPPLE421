@@ -71,7 +71,8 @@ body {
 
 /* apply style to both hover and active states */
 .more-info:hover,
-.more-info:active {
+.more-info:active,
+.more-info:visited {
   /*text-decoration*/
   text-decoration: none;
   /*color*/
@@ -138,6 +139,9 @@ body {
   height: 25px;
 }
 
+.color-black{
+  background-color: #000;
+}
 .color-red {
   /*background-color*/
   background-color: #ec2f2f;
@@ -197,6 +201,7 @@ body {
 
 .info {
   flex: 1;
+  margin-top: 11px;
 }
 
 .details{
@@ -205,12 +210,12 @@ body {
 
 .info-head {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   justify-content: space-between;
+  margin-bottom: 11px;
 }
 
 .colors {
   display: flex;
-  gap: 20px;
-  justify-content: flex-end;
+  gap: 15px;
 }
